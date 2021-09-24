@@ -1,0 +1,122 @@
+.bg-about {
+    background-image: url(../img/about-us-bg-free-img.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    width: 100%;
+    height: 600px;
+    position: relative;
+}
+
+.bg-about .text-ring {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 70%;
+    width: 50%;
+    margin-top: 20px;
+}
+
+.bg-about .text-ring .h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 4rem;
+}
+
+.bg-about .text-ring .lead:nth-child(1) {
+    font-family: 'Playfair Display', serif;
+    font-size: 18px;
+}
+
+.bg-about .text-ring .lead {
+    font-size: 14px;
+}
+
+.bg-history .text-history {
+    height: 100%;
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 7%;
+}
+
+.bg-history {
+    background-image: url(../img/about-bg-free-img.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    width: 100%;
+    height: 600px;
+    margin-bottom: 20px;
+    position: relative;
+    margin-top: 0;
+    color: black;
+}
+
+.bg-ring .overlay {
+    top: 0;
+    right: 0;
+    bottom: 0;
+    position: absolute;
+    width: 100%;
+    background-color: transparent;
+    background-image: linear-gradient(160deg, #ffffff 45%, rgba(0, 0, 0, 0) 75%);
+    opacity: .5;
+    mix-blend-mode: overlay;
+}
+
+.bg-history .h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 4rem;
+    margin-bottom: 30px;
+}
+
+.bg-history .lead:nth-child(1) {
+    font-family: 'Playfair Display', serif;
+    font-size: 18px;
+}
+
+.bg-history .lead {
+    font-size: 14px;
+}
+
+.our-partners {
+    padding: 100px 0;
+}
+
+.our-partners p {
+    font-family: 'Playfair Display', serif;
+    margin-bottom: 50px;
+}
+
+.our-philosophy {
+    color: black;
+    background: #fff;
+    padding: 80px;
+}
+
+.our-philosophy .h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 2rem;
+    margin-bottom: 30px;
+    font-weight: bold;
+}
+
+.our-philosophy .lead:nth-child(1) {
+    font-family: 'Playfair Display', serif;
+    font-size: 18px;
+}
+
+.our-philosophy .lead {
+    font-size: 14px;
+}
+
+.buy-now-btn {
+    margin-top: 50px;
+    background-color: #fed366;
+    font-family: 'Playfair Display', serif;
+    padding: 12px 30px;
+    text-transform: uppercase;
+}

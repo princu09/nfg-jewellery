@@ -1,0 +1,233 @@
+/* Top Card */
+
+.nav-item {
+    margin: 0 15px;
+}
+
+.bg-ring {
+    background-image: url(../img/rings.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    width: 100%;
+    height: 600px;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.bg-ring .overlay {
+    top: 0;
+    right: 0;
+    bottom: 0;
+    position: absolute;
+    width: 100%;
+    background-color: #080a0f;
+    opacity: .5;
+    mix-blend-mode: overlay;
+}
+
+.bg-ring .text-ring {
+    position: absolute;
+    right: 10%;
+    top: 60%;
+    transform: translate(-50%, -50%);
+}
+
+.bg-ring .text-ring .span-text {
+    font-size: 50px;
+    font-family: 'Playfair Display', serif;
+}
+
+.bg-ring .text-ring p {
+    border: 0;
+    font-size: 100%;
+    font-style: inherit;
+    font-weight: inherit;
+    margin: 0;
+    outline: 0;
+    padding: 0;
+    vertical-align: baseline;
+}
+
+.shop-now-btn {
+    margin-top: 70px !important;
+    background-color: #fed366;
+    font-family: 'Playfair Display', serif;
+    padding-top: 12px;
+    padding-right: 36px;
+    padding-bottom: 12px;
+    padding-left: 36px;
+    text-transform: uppercase;
+}
+
+.new-carousel {
+    width: 100%;
+    height: 550px;
+    padding: 0;
+    margin-bottom: 40px;
+}
+
+.new-carousel .carousel-row {
+    display: flex;
+    text-align: center;
+}
+
+.new-carousel .carousel-row .carousel-col-1 {
+    width: 35%;
+    background-color: black;
+    height: 550px;
+    margin-right: 20px;
+    background-image: url(../img/pic-01.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    padding: 50px 0 225px;
+    margin: 20px 20px 10px 0;
+}
+
+.new-carousel .carousel-row .carousel-col-1 .heading {
+    font-size: 1.875rem;
+    font-family: 'Playfair Display', serif;
+}
+
+.new-carousel .carousel-row .carousel-col-2 {
+    width: 65%;
+    background-color: white;
+    color: black;
+    margin-left: 20px;
+    background-image: url(../img/earrings-free-img-1.jpg);
+    background-position: left;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    margin: 20px 0 10px 20px;
+}
+
+.new-carousel .carousel-row .carousel-col-1 .lead-text {
+    margin-bottom: 3rem;
+    font-size: .9rem;
+}
+
+.new-carousel .carousel-row .buy-now-btn {
+    background-color: #fed366;
+    font-family: 'Playfair Display', serif;
+    padding: 12px 30px;
+    text-transform: uppercase;
+}
+
+.new-carousel .carousel-row .carousel-col-2 {
+    display: flex;
+    align-items: center;
+}
+
+.new-carousel .carousel-row .carousel-col-2 .text-box {
+    margin: 0% 0% 0% 60%;
+    text-align: start;
+}
+
+.new-carousel .carousel-row .carousel-col-2 p {
+    font-family: 'Playfair Display', serif;
+    font-size: 2.625rem;
+    font-weight: 700;
+    text-align: start;
+}
+
+.new-carousel .carousel-row .carousel-col-2 .buy-now-btn {
+    margin-top: 15%;
+}
+
+.new-carousel2 {
+    width: 100%;
+    height: 550px;
+    padding: 0;
+    margin-bottom: 40px;
+}
+
+.new-carousel2 .carousel-row {
+    display: flex;
+    width: 100%;
+}
+
+.new-carousel2 .carousel-row .carousel-col-1 {
+    width: 65%;
+    background-color: black;
+    height: 550px;
+    background-image: url(../img/man-with-hat-free-img.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    margin: 20px 20px 10px 0;
+    text-align: left;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.new-carousel2 .carousel-row .carousel-col-1 .heading {
+    font-size: 1.875rem;
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.new-carousel .carousel-row .carousel-col-1 .lead-text {
+    font-size: .9rem;
+}
+
+.new-carousel2 .carousel-row .buy-now-btn {
+    background-color: #fed366;
+    font-family: 'Playfair Display', serif;
+    padding: 12px 30px;
+    text-transform: uppercase;
+}
+
+.new-carousel2 .carousel-row .carousel-col-2 {
+    width: 35%;
+    background-color: white;
+    color: black;
+    margin-left: 20px;
+    background-image: url(../img/woman-jewelry-free-img.jpg);
+    background-position: left;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    margin: 20px 0 10px 20px;
+    padding: 30px 50px;
+    display: flex;
+    align-items: flex-end;
+    text-align: center;
+}
+
+.new-carousel2 .carousel-row .carousel-col-2 p {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.875rem;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.join-today {
+    background-color: #fed366;
+    color: #54595f;
+    padding: 20px;
+}
+
+.join-today .h2 {
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    font-size: 2.625rem;
+}
+
+.join-today .h4 {
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    font-size: 1.25rem;
+}
+
+.join-today .btn-dark {
+    font-family: 'Playfair Display', serif;
+    padding: 10px 30px;
+}
